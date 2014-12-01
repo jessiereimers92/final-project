@@ -38,6 +38,7 @@ body{
     background-color: #E1D2CC;
     font-family: 'Playfair Display', cursive;
     color:#5D4157;
+    font-size: 15px;
 }
 h1 {
   font-size: 50px; /* 48px */
@@ -58,7 +59,7 @@ h2{
     font-size: 20px
 }
 h3 {
-  font-size: 1.75em /* 28px */
+  font-size: 20px /* 28px */
 }
 
 h4 {
@@ -73,53 +74,38 @@ img{
 .home-image{
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =======================================
-    helper classes
-    keep this at the bottom
-========================================== */
-
-/*
- * Clearfix: contain floats
- *
- * from HTML5 Boilerplate
- * shttps://github.com/h5bp/html5-boilerplate/blob/master/css/main.css
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+a{
+    color: #808193;
 }
-
-.clearfix:after {
-  clear: both;
+a:hover{
+    color:#5D4157;
+}
+a:visited{
+    color: #3B3747;
+}
+.barsclubs{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5px;
+    padding: 10px;
+}
+.important{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5px;
+    padding: 10px;
+}
+.other{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5px;
+    padding: 10px;
+}
+.site-footer{
+    text-align: center;
+    padding: 5px
+}
+.site-footer ul{
+    list-style: none;
+    font-size:16px;
 }
