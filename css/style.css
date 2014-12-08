@@ -83,6 +83,12 @@ a:hover{
 a:visited{
     color: #3B3747;
 }
+.food{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5px;
+    padding: 10px;
+}
 .barsclubs{
     margin-left:auto;
     margin-right:auto;
